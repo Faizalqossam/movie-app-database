@@ -1,0 +1,115 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Small Screen */
+.container {
+    margin: 1rem;
+}
+
+.AddMovieForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+}
+
+.AddMovieForm {
+    margin: 1rem;
+}
+
+.AddMovieForm__left {
+    margin-bottom: 1rem;
+}
+
+.AddMovieForm__image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.AddMovieForm__right {
+    margin: 1rem;
+}
+
+.AddMovieForm__title {
+    color: #4361ee;
+    margin-bottom: 1rem;
+    font-size: 2.44rem;
+}
+
+.AddMovieForm__label {
+    color:#64748b;
+}
+
+.AddMovieForm__input{
+    height: 30px;
+    width: 55%;
+    margin-bottom: 1rem;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: #4361ee;
+}
+
+.AddMovieForm__button {
+    height: 30px;
+    width: 55%;
+    border-radius: 5px;
+    background-color: #4361ee;
+    border-color: #4361ee;
+    color: #fff;
+    border: none;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+    /*
+   * Nothing TODO Here.
+   * We dont change style AddMovieForm. 
+   */
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+    .container {
+        max-width: 1200px;
+        margin: 3rem auto;
+    }
+
+    .AddMovieForm {
+        margin: 0 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .AddMovieForm__left {
+        flex-basis: 60%;
+    }
+
+    
+
+    .AddMovieForm__right {
+        flex-basis: 40%;
+        text-align: left;
+    }
+
+    .AddMovieForm__label {
+        margin-bottom: 1rem;
+    }
+
+    .AddMovieForm__input {
+        margin-top: 5px;
+        width: 60%;
+        font-family: 'Poppins',sans-serif;
+    }
+
+    .AddMovieForm__option{
+        font-family: 'Poppins',sans-serif;
+        font-weight: bold;
+    }
+
+    .AddMovieForm__button {
+        width: 60%;
+        font-family: 'Poppins',sans-serif;
+    }
+}
